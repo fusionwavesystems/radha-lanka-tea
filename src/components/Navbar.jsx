@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -32,23 +31,10 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        <Link href="/" className="flex items-center gap-3 group" onClick={() => setIsOpen(false)}>
-          <div className="relative w-12 h-12 md:w-16 md:h-16 transition-transform duration-300 group-hover:scale-110">
-            <Image
-              src="/radhalogo.png"
-              alt="Radha Lanka Logo"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
-          <div className="flex flex-col">
-            <span className={`text-lg md:text-xl font-bold tracking-tight leading-none ${isScrolled || isOpen ? "text-primary" : "text-white"}`}>
-              RADHA
-            </span>
-            <span className="text-accent text-sm md:text-md font-medium tracking-[0.2em] leading-none">
-              LANKA
-            </span>
+        <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
+          <div className="text-xl md:text-2xl font-bold tracking-tight">
+            <span className={isScrolled || isOpen ? "text-primary" : "text-white"}>RADHA</span>
+            <span className="text-accent ml-1">LANKA</span>
           </div>
         </Link>
 

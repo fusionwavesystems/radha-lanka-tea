@@ -112,8 +112,9 @@ const Hero = () => {
                   >
                       <Image 
                         src={heroSlides[current].image} 
-                        alt="Teapot"
+                        alt={heroSlides[current].subtitle + " - Radha Lanka Ceylon Tea"}
                         fill
+                        priority
                         className="object-cover transition-transform duration-700 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-linear-to-t from-primary/60 to-transparent"></div>
