@@ -30,7 +30,7 @@ export default function ProductsPage() {
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-4 md:mb-6">Our Collections</h1>
           <div className="w-20 h-1 bg-accent mx-auto mb-6 md:mb-8"></div>
           <p className="text-white/60 max-w-2xl mx-auto text-base md:text-lg italic px-4 md:px-0">
-            "Explore our full range of organic, hand-picked teas from the finest estates in Sri Lanka."
+            "Explore our full range of handmade, hand-picked teas from the finest estates in Sri Lanka."
           </p>
         </motion.div>
       </section>

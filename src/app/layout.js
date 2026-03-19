@@ -20,14 +20,14 @@ const dancingScript = Dancing_Script({
 export const metadata = {
   metadataBase: new URL("https://radhalankatea.com"),
   title: {
-    default: "Radha Lanka | Premium Organic Ceylon Tea from Sri Lanka",
+    default: "Radha Lanka | Premium Handmade Ceylon Tea from Sri Lanka",
     template: "%s | Radha Lanka - Premium Ceylon Tea",
   },
-  description: "Experience the authentic taste of Sri Lanka with Radha Lanka's premium organic tea. Hand-picked, handmade, and 100% natural Ceylon tea for locals and foreign tourists.",
+  description: "Experience the authentic taste of Sri Lanka with Radha Lanka's premium handmade tea. Hand-picked and 100% natural Ceylon tea for locals and foreign tourists.",
   keywords: [
     "Ceylon Tea", 
-    "Organic Tea Sri Lanka", 
-    "Premium Tea Sri Lanka", 
+    "Handmade Tea Sri Lanka", 
+    "Handcrafted Tea Sri Lanka", 
     "Handmade Tea", 
     "Hand-picked Tea", 
     "Pure Ceylon Tea", 
@@ -59,8 +59,8 @@ export const metadata = {
     apple: "/radhalogo.png",
   },
   openGraph: {
-    title: "Radha Lanka | Premium Organic Ceylon Tea from Sri Lanka",
-    description: "Discover the finest 100% organic handmade tea from the highlands of Sri Lanka. Perfect for tea lovers and tourists seeking authentic Ceylon tea gift sets.",
+    title: "Radha Lanka | Premium Handmade Ceylon Tea from Sri Lanka",
+    description: "Discover the finest 100% handmade tea from the highlands of Sri Lanka. Perfect for tea lovers and tourists seeking authentic Ceylon tea gift sets.",
     url: "https://radhalankatea.com",
     siteName: "Radha Lanka",
     images: [
@@ -76,8 +76,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Radha Lanka | Premium Organic Ceylon Tea from Sri Lanka",
-    description: "Experience pure handmade organic Ceylon tea from Sri Lanka's highlands.",
+    title: "Radha Lanka | Premium Handmade Ceylon Tea from Sri Lanka",
+    description: "Experience pure handmade Ceylon tea from Sri Lanka's highlands.",
     images: ["/radhalogo.png"],
   },
   robots: {

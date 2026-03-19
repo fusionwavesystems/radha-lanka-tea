@@ -25,14 +25,14 @@ export default function AboutPage() {
 
 
         <div className="relative z-10 text-center px-6">
-          <motion.h3 
+          <motion.h3
             initial={{ opacity: 0, tracking: "0.5em" }}
             animate={{ opacity: 1, tracking: "0.3em" }}
             className="text-accent uppercase font-bold text-sm md:text-base mb-6 tracking-[0.3em]"
           >
             Since 2014
           </motion.h3>
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-7xl font-bold text-white mb-8 leading-tight"
@@ -51,16 +51,16 @@ export default function AboutPage() {
             <motion.div {...animations.fadeInUp} className="flex-1">
               <span className="text-accent font-bold uppercase tracking-widest text-sm mb-4 block">Our Philosophy</span>
               <h2 className="text-4xl md:text-5xl font-bold text-primary mb-8 leading-tight">
-                Purity in Every <br/> Single Drop
+                Purity in Every <br /> Single Drop
               </h2>
               <div className="flex gap-8 mb-8 text-[10px] md:text-xs font-bold uppercase tracking-widest text-primary/40">
                 <div className="flex flex-col gap-1">
-                   <span>Tea Board Reg</span>
-                   <span className="text-accent">HT 0075</span>
+                  <span>Tea Board Reg</span>
+                  <span className="text-accent">HT 0075</span>
                 </div>
                 <div className="flex flex-col gap-1">
-                   <span>Company Reg</span>
-                   <span className="text-accent">PV 00313941</span>
+                  <span>Company Reg</span>
+                  <span className="text-accent">PV 00313941</span>
                 </div>
               </div>
               <p className="text-primary/70 text-lg leading-relaxed mb-6 font-medium italic">
@@ -69,20 +69,20 @@ export default function AboutPage() {
               <p className="text-primary/70 text-base leading-relaxed mb-8">
                 Radha Lanka was born in the heart of the misty Sri Lankan highlands. We maintain a commitment to purity that defines every leaf we harvest for over 10 years. We believe that tea is more than a beverage; it is a bridge between nature and the soul.
               </p>
-              
+
               <div className="bg-zinc-50 p-6 rounded-2xl border border-primary/5">
                 <h4 className="text-primary font-bold uppercase tracking-widest text-xs mb-3 flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h11M5 12h11M5 16h11M5 4h11" />
                   </svg>
-                  Island-wide Delivery
+                  World-wide Delivery
                 </h4>
                 <p className="text-primary/60 text-sm">
                   We provide direct home delivery for all our products across Sri Lanka. Standard courier service charges apply based on your location.
                 </p>
               </div>
             </motion.div>
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -134,7 +134,7 @@ export default function AboutPage() {
               },
               {
                 title: "Pure Nature",
-                desc: "We strictly prohibit the use of chemical fertilizers or pesticides, maintaining a 100% organic ecosystem in our gardens.",
+                desc: "We strictly prohibit the use of chemical fertilizers or pesticides, maintaining a handmade ecosystem in our gardens.",
                 icon: (
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2 2 2 0 012 2v.654M5.637 11A9.959 9.959 0 0115 5.233M15 5.233A9.953 9.953 0 0119.938 11M15 5.233V3.5a2.5 2.5 0 00-2.5-2.5h-1A2.5 2.5 0 009 3.5V5" />
@@ -142,7 +142,7 @@ export default function AboutPage() {
                 )
               }
             ].map((value, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -172,7 +172,7 @@ export default function AboutPage() {
             <p className="text-white/60 mb-12 max-w-xl mx-auto italic text-lg">
               "From our estates to your cup, experience the journey of purity."
             </p>
-            <Link 
+            <Link
               href="/products"
               className="inline-block px-12 py-5 bg-accent text-primary font-bold uppercase tracking-widest rounded-full hover:bg-white transition-all shadow-2xl shadow-accent/20"
             >

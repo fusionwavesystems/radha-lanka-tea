@@ -52,7 +52,7 @@ const ProductSection = () => {
                 Crafting the Soul of <br/> <span className="text-accent italic">Ceylon</span>
               </h2>
               <p className="text-primary/60 text-base md:text-lg mb-8 max-w-md mx-auto md:mx-0">
-                Experience the pure essence of nature with our hand-picked, organic collections.
+                Experience the pure essence of nature with our hand-picked, handmade collections.
               </p>
               <Link href="/products" className="px-8 py-3 bg-primary text-white font-bold uppercase tracking-widest text-xs rounded-full hover:bg-accent transition-all inline-block">
                 View Collections
@@ -110,7 +110,7 @@ const ProductSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">Exquisite Tea Selection</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-text-main/60 max-w-2xl mx-auto italic text-lg leading-relaxed">
-            "Discover the finest organic teas sourced from the lush, mist-covered mountains of Sri Lanka."
+            "Discover the finest handmade teas sourced from the lush, mist-covered mountains of Sri Lanka."
           </p>
         </motion.div>
 

@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Golden Fresh Green Tea",
-  
+
     image: "/goldenfreshgreentea.png",
     tag: "Premium",
     category: "Green Tea",
@@ -31,7 +31,7 @@ export const products = [
     image: "/lovelyblacktea.png",
     tag: "Best Seller",
     category: "Black Tea",
-   prices: {
+    prices: {
       "1kg": "$74.43",
       "500g": "$37.21",
       "100g": "$7.44"
@@ -150,7 +150,7 @@ export const products = [
       "100g": "$4.21"
     }
   },
-   {
+  {
     id: 13,
     name: "Black Keshi",
     description: "There are 200 pieces in 1 kilogram. Each piece weighs 5 grams.Can Make 3 cups of tea Using 1 piece.",
@@ -176,7 +176,7 @@ export const products = [
       "100g": "$8.09"
     }
   },
-    {
+  {
     id: 15,
     name: "Silver Crial Tea",
     description: "There are 200 pieces in 1 kilogram. Each piece weighs 5 grams.Can Make 3 cups of tea Using 1 piece.",
@@ -189,7 +189,7 @@ export const products = [
       "100g": "$3.22"
     }
   },
-      {
+  {
     id: 16,
     name: "Yellow Tea",
     description: "There are 350 pieces in 1 kilogram. Each piece weighs between 2.5-3.0 grams.",
@@ -202,7 +202,7 @@ export const products = [
       "100g": "$8.09"
     }
   },
-      
+
   {
     id: 17,
     name: "Pink Tea",
@@ -233,7 +233,7 @@ export const products = [
     id: 19,
     name: "Blooming tea Bowl",
     description: "Each bowl weighs 4g and can make 3 cups of tea.",
-    image: "/bloomingteabolw.png",
+    image: "/blooming.jpeg",
     tag: "Elegant",
     category: "Blooming Tea",
     prices: {
@@ -242,6 +242,77 @@ export const products = [
     },
     cardPriceKey: "bowl",
     cardPriceLabel: "Bolw"
+  },
+  {
+    id: 20,
+    name: "Green Tea Coins",
+    description: "Hand-pressed premium green tea coins for a perfectly balanced brew.",
+    image: "/greencoin.jpeg",
+    tag: "Handcrafted",
+    category: "Green Tea",
+    prices: {
+      "100g": "$6",
+      "500g": "$29.16",
+      "1kg": "$58.33"
+    },
+    cardPriceKey: "100g",
+    cardPriceLabel: "100g"
+  },
+  {
+    id: 21,
+    name: "Natural Pineapple Flavour Tea",
+    description: "Refreshing tropical blend with natural pineapple essence.",
+    image: "/pineapple.jpeg",
+    tag: "Tropical",
+    category: "Flavour Tea",
+    prices: {
+      "100g": "$5",
+      "500g": "$23.3",
+      "1kg": "$46.7"
+    },
+    cardPriceKey: "100g",
+    cardPriceLabel: "100g"
+  },
+  {
+    id: 22,
+    name: "Oolong SP Tea",
+    description: "Premium Oolong tea with smooth floral notes and extra richness.",
+    image: "/oolong.jpeg",
+    tag: "Specialty",
+    category: "Oolong Tea",
+    prices: {
+      "100g": "$7",
+      "500g": "$35",
+      "1kg": "$68.3"
+    },
+    cardPriceKey: "100g",
+    cardPriceLabel: "100g"
+  },
+  {
+    id: 23,
+    name: "Natural Vanilla Beans",
+    description: "Pure, aromatic whole vanilla beans for connoisseurs.",
+    image: "/vanilabeans.jpeg",
+    tag: "Gourmet",
+    category: "Flavour Tea",
+    prices: {
+      "100g": "$20"
+    },
+    cardPriceKey: "100g",
+    cardPriceLabel: "100g"
+  },
+  {
+    id: 24,
+    name: "Natural Vanilla Powder",
+    description: "Rich, finely ground vanilla pods for natural infusion.",
+    image: "/vanilapowder.jpeg",
+    tag: "Pure",
+    category: "Flavour Tea",
+    prices: {
+      "100g": "$16"
+    },
+    cardPriceKey: "100g",
+    cardPriceLabel: "100g"
   },
 ];
 

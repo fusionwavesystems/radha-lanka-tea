@@ -2,8 +2,8 @@ export const heroSlides = [
   {
     id: 1,
     subtitle: "Hand Made Tea Set",
-    title: "Organic <span class='text-accent'>Tea</span> House",
-    description: "Experience the essence of Sri Lankan nature in every sip. Our premium organic teas are hand-picked and crafted for perfection.",
+    title: "Handmade <span class='text-accent'>Tea</span> House",
+    description: "Experience the essence of Sri Lankan nature in every sip. Our premium handmade teas are hand-picked and crafted for perfection.",
     image: "/teacup.jpg",
     feature: "ECO FRIENDLY"
   },

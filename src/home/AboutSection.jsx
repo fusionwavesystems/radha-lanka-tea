@@ -86,7 +86,7 @@ const AboutSection = () => {
                   </svg>
                 </div>
                 <div>
-                  <h4 className="text-primary font-bold mb-1">100% Organic Harvesting</h4>
+                  <h4 className="text-primary font-bold mb-1">100% Handmade Crafting</h4>
                   <p className="text-text-main/60 text-sm">We strictly follow traditional, pesticide-free farming methods.</p>
                 </div>
               </div>
