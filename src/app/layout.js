@@ -20,6 +20,16 @@ const dancingScript = Dancing_Script({
 export const metadata = {
   title: "Radha Lanka - Premium Organic Tea",
   description: "Exquisite handmade organic tea from the heart of Sri Lanka.",
+  icons: {
+    icon: "/radhalogo.png",
+    apple: "/radhalogo.png",
+  },
+  openGraph: {
+    images: [{ url: "/radhalogo.png" }],
+  },
+  twitter: {
+    images: ["/radhalogo.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
